@@ -1,0 +1,133 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial;
+    }
+    
+    body{
+    min-height:100vh;
+    background:linear-gradient(135deg,#090a0c,#e48c71);
+    color:white;
+    }
+    
+    /* Navbar */
+    
+    .navbar{
+    width:90%;
+    margin:auto;
+    margin-top:20px;
+    padding:15px 30px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(10px);
+    border-radius:15px;
+    border:1px solid rgba(255,255,255,0.3);
+    box-shadow:0 8px 32px rgba(0,0,0,0.2);
+    }
+    
+    .logo{
+    font-size:22px;
+    font-weight:bold;
+    }
+    
+    .nav-links{
+    display:flex;
+    list-style:none;
+    gap:25px;
+    }
+    
+    .nav-links a{
+    text-decoration:none;
+    color:white;
+    transition:0.3s;
+    }
+    
+    .nav-links a:hover{
+    color:#ffd369;
+    }
+    
+    .btn{
+    padding:8px 18px;
+    border:none;
+    border-radius:10px;
+    background:rgba(255,255,255,0.25);
+    color:white;
+    cursor:pointer;
+    }
+    
+    /* Hero Section */
+    
+    .hero{
+    height:80vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    }
+    
+    .hero-text{
+    background:rgba(255,255,255,0.15);
+    padding:40px;
+    border-radius:20px;
+    backdrop-filter:blur(15px);
+    border:1px solid rgba(255,255,255,0.3);
+    }
+    
+    .hero h1{
+    font-size:48px;
+    margin-bottom:15px;
+    }
+    
+    .hero p{
+    margin-bottom:20px;
+    }
+    
+    .hero-btn{
+    padding:10px 25px;
+    border:none;
+    border-radius:10px;
+    background:#ffd369;
+    cursor:pointer;
+    font-weight:bold;
+    }
+    
+    /* Cards */
+    
+    .cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:80px 10%;
+    flex-wrap:wrap;
+    }
+    
+    .card{
+    width:250px;
+    padding:30px;
+    text-align:center;
+    
+    background:rgba(255,255,255,0.15);
+    backdrop-filter:blur(10px);
+    border-radius:15px;
+    border:1px solid rgba(255,255,255,0.3);
+    box-shadow:0 8px 32px rgba(0,0,0,0.2);
+    
+    transition:0.3s;
+    }
+    
+    .card:hover{
+    transform:translateY(-10px);
+    }
+    
+    /* Footer */
+    
+    .footer{
+    text-align:center;
+    padding:20px;
+    background:rgba(0,0,0,0.2);
+    margin-top:50px;
+    }
